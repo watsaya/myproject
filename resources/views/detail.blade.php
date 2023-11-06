@@ -1,0 +1,9 @@
+@extends('layouts.app')
+@section('title')
+{{$blog->title}}
+@endsection
+@section('content')
+    <h1>{{$blog->title}}</h1>
+    <hr>
+    {!!$blog->content!!}
+@endsection
